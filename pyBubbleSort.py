@@ -14,7 +14,9 @@ data2 = [9,8,7,6,5,4,3,2,1,0]   ##reverse
 print("data1 : ", end = "")
 print(data1)
 bubblesort(data1, len(data1))
+print(data1)
 
 print("data2 : ", end = "")
 print(data2)
 bubblesort(data2, len(data2))
+print(data2)
