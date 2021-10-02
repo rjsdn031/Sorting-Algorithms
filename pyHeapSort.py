@@ -1,4 +1,8 @@
+from heapq import *
+
 def heapsort(data:list):
+    heap = heapify(data)
+
 
     return
 
@@ -8,12 +12,12 @@ data2 = [9,8,7,6,5,4,3,2,1,0]   ##reverse
 
 print("data1 : ", end = "")
 print(data1)
-print("data1-BubbleSort : ", end = "")
+print("data1-HeapSort : ", end = "")
 heapsort(data1)
 print(data1)
 
 print("data2 : ", end = "")
 print(data2)
-print("data2-BubbleSort : ", end = "")
+print("data2-HeapSort : ", end = "")
 heapsort(data2)
 print(data2)
